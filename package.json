@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node dist/app.js",
+    "test": "ts-node src/app.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guimassoqueto/node_prisma.git"
